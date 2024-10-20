@@ -1,8 +1,8 @@
 // src/components/ProtectedRoute.js
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { useAuth } from './AuthContext'; // Correct path
- // Adjust the import based on your structure
+import { useAuth } from './AuthContext'; 
+ 
 
 const ProtectedRoute = ({ element }) => {
   const { isAuthenticated } = useAuth(); // Get authentication status from context

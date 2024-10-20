@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Here, you would typically check credentials (e.g., API call)
+    
     if (email && password) { // Simple validation for demonstration
       login(); // Call the login function from context
       navigate('/job-list'); // Redirect to job list or any other page

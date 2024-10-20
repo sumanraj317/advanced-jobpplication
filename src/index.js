@@ -27,7 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}> 
     <BrowserRouter>
-      <AuthProvider> {/* Wrap App with AuthProvider */}
+      <AuthProvider> 
         <App />
       </AuthProvider>
     </BrowserRouter>

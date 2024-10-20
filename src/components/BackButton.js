@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import './BackButton.css'; // Import custom CSS
+import './BackButton.css'; 
 
 const BackButton = () => {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ const BackButton = () => {
 
   return (
     <button 
-      className="back-button" // Custom class
+      className="back-button" 
       onClick={handleBack}
     >
       Back
